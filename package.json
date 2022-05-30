@@ -1,0 +1,24 @@
+{
+  "name": "pixelbrazil.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliadebelli/pixelbrazil.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliadebelli/pixelbrazil.com/issues"
+  },
+  "homepage": "https://github.com/juliadebelli/pixelbrazil.com#readme",
+  "dependencies": {
+    "css": "^3.0.0",
+    "tailwind": "^4.0.0"
+  }
+}

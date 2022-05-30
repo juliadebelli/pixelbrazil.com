@@ -4,122 +4,125 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>Brasil para gráficos em CSS</title>
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="src/styles.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div>
+    <header>
+     <h1>Brasil para gráficos em CSS</h1>
+     <p>
+       <a href="https://www.figma.com/file/ancNkrCa5NgragNA4d1VFj/%F0%9F%87%A7%F0%9F%87%B7-Pixel-Brazil-for-data-vis" target="_blank">Arquivo no Figma</a>
+     </p>
+    </header>
 
-  <header>
-   <h1>Brasil para gráficos em CSS</h1>
-  </header>
-  
-  <h2 class="titulo">
-    Estado de origem
-  </h2>
-  <div id="legenda">
+    <h2 class="titulo">
+      Estado de origem
+    </h2>
+    <div id="legenda">
 
-    <div class="legenda-item">
-      <div class="legenda-cor" style="background-color: yellow;"></div>
-      <div class="legenda-texto">
-        2
+      <div class="legenda-item">
+        <div class="legenda-cor" style="background-color: yellow;"></div>
+        <div class="legenda-texto">
+          2
+        </div>
       </div>
+
+      <div class="legenda-item">
+        <div class="legenda-cor" style="background-color: #ff0000;"></div>
+        <div class="legenda-texto">
+          5
+        </div>
+      </div>
+
+      <div class="legenda-item">
+        <div class="legenda-cor" style="background-color: #f5f5f5;"></div>
+        <div class="legenda-texto">
+          10
+        </div>
+      </div>
+
+      <div class="legenda-item">
+        <div class="legenda-cor" style="background-color: green;"></div>
+        <div class="legenda-texto">
+          20
+        </div>
+      </div>
+
+      <div class="legenda-item">
+        <div class="legenda-cor" style="background-color: #f5f5f5;"></div>
+        <div class="legenda-texto">
+          50
+        </div>
+      </div>
+
+      <div class="legenda-item">
+        <div class="legenda-cor" style="background-color: #ff0000;"></div>
+        <div class="legenda-texto">
+          > 100
+        </div>
+      </div>
+
+
     </div>
 
-    <div class="legenda-item">
-      <div class="legenda-cor" style="background-color: #ff0000;"></div>
-      <div class="legenda-texto">
-        5
-      </div>
+    <div class="map">
+
+      <div id="rr" class="estado">RR</div>
+      <div id="ac" class="estado">AC</div>
+      <div id="ro" class="estado">RO</div>
+      <div class="empty"></div>
+      <div class="empty"></div>
+      <div class="empty"></div>
+      <div class="empty"></div>
+
+      <div class="empty"></div>
+      <div id="am" class="estado">AM</div>
+      <div id="mt" class="estado">MT</div>
+      <div id="df" class="estado">DF</div>
+      <div id="ms" class="estado">MS</div>
+      <div id="pr" class="estado">PR</div>
+      <div id="rs" class="estado">RS</div>
+
+      <div id="ap" class="estado">AP</div>
+      <div id="pa" class="estado">PA</div>
+      <div id="to" class="estado">TO</div>
+      <div id="go" class="estado">GO</div>
+      <div id="sp" class="estado">SP</div>
+      <div id="sc" class="estado">SC</div>
+      <div class="empty"></div>
+
+      <div class="empty"></div>
+      <div id="ma" class="estado">MA</div>
+      <div id="pi" class="estado">PI</div>
+      <div id="mg" class="estado">MG</div>
+      <div id="rj" class="estado">RJ</div>
+      <div class="empty"></div>
+      <div class="empty"></div>
+
+      <div class="empty"></div>
+      <div id="ce" class="estado">CE</div>
+      <div id="pe" class="estado">PE</div>
+      <div id="ba" class="estado">BA</div>
+      <div id="es" class="estado">ES</div>
+      <div class="empty"></div>
+      <div class="empty"></div>
+
+      <div class="empty"></div>
+      <div id="rn" class="estado">RN</div>
+      <div id="pb" class="estado">PB</div>
+      <div id="al" class="estado">AL</div>
+      <div id="se" class="estado">SE</div>
+
+      <div class="empty"></div>
+      <div class="empty"></div>
+
+
     </div>
-
-    <div class="legenda-item">
-      <div class="legenda-cor" style="background-color: #f5f5f5;"></div>
-      <div class="legenda-texto">
-        10
-      </div>
-    </div>
-
-    <div class="legenda-item">
-      <div class="legenda-cor" style="background-color: green;"></div>
-      <div class="legenda-texto">
-        20
-      </div>
-    </div>
-
-    <div class="legenda-item">
-      <div class="legenda-cor" style="background-color: #f5f5f5;"></div>
-      <div class="legenda-texto">
-        50
-      </div>
-    </div>
-
-    <div class="legenda-item">
-      <div class="legenda-cor" style="background-color: #ff0000;"></div>
-      <div class="legenda-texto">
-        > 100
-      </div>
-    </div>
-
-
   </div>
 
-  <div class="map">
-
-    <div id="rr" class="estado">RR</div>
-    <div id="ac" class="estado">AC</div>
-    <div id="ro" class="estado">RO</div>
-    <div class="empty"></div>
-    <div class="empty"></div>
-    <div class="empty"></div>
-    <div class="empty"></div>
-
-    <div class="empty"></div>
-    <div id="am" class="estado">AM</div>
-    <div id="mt" class="estado">MT</div>
-    <div id="df" class="estado">DF</div>
-    <div id="ms" class="estado">MS</div>
-    <div id="pr" class="estado">PR</div>
-    <div id="rs" class="estado">RS</div>
-
-    <div id="ap" class="estado">AP</div>
-    <div id="pa" class="estado">PA</div>
-    <div id="to" class="estado">TO</div>
-    <div id="go" class="estado">GO</div>
-    <div id="sp" class="estado">SP</div>
-    <div id="sc" class="estado">SC</div>
-    <div class="empty"></div>
-
-    <div class="empty"></div>
-    <div id="ma" class="estado">MA</div>
-    <div id="pi" class="estado">PI</div>
-    <div id="mg" class="estado">MG</div>
-    <div id="rj" class="estado">RJ</div>
-    <div class="empty"></div>
-    <div class="empty"></div>
-
-    <div class="empty"></div>
-    <div id="ce" class="estado">CE</div>
-    <div id="pe" class="estado">PE</div>
-    <div id="ba" class="estado">BA</div>
-    <div id="es" class="estado">ES</div>
-    <div class="empty"></div>
-    <div class="empty"></div>
-
-    <div class="empty"></div>
-    <div id="rn" class="estado">RN</div>
-    <div id="pb" class="estado">PB</div>
-    <div id="al" class="estado">AL</div>
-    <div id="se" class="estado">SE</div>
-
-    <div class="empty"></div>
-    <div class="empty"></div>
-
-
-  </div>
-
-  </div>
   <!-- -->
   <footer>
     <div>
