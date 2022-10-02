@@ -2,7 +2,7 @@
 
 Brazilian states as equally-sized squares based on this [USA design featured on Bloomberg](https://www.bloomberg.com/graphics/2022-supreme-court-roe-v-wade-abortion-access/?utm_campaign=socialflow-organic&utm_source=twitter&utm_content=business&cmpid=socialflow-twitter-business&utm_medium=social)
 
-[Figma Community File](https://www.figma.com/file/ancNkrCa5NgragNA4d1VFj/%F0%9F%87%A7%F0%9F%87%B7-Pixel-Brazil-for-data-vis) for open-source designing
+[Figma Community File](https://www.figma.com/community/file/1116542873315056571) for open-source designing
 
 #### CONTRIBUTING
 
